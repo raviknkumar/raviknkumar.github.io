@@ -123,13 +123,19 @@ a.nav-link {
 
 .hire-btn {
   border: 2px solid #373636;
-  color: #373636;
   background-color: transparent;
   cursor: pointer;
 }
 
+.hire-btn a {
+  color: #373636;
+}
+
+.hire-btn a:hover{
+  color: #0d0d0d;
+}
+
 .hire-btn:hover{
-    color: #0d0d0d;
     background-color: #ddd;
     font-weight: bolder;
 }
