@@ -141,6 +141,14 @@ a.nav-link {
   cursor: pointer;
 }
 
+.down-cv a {
+  color: #eee;
+}
+
+.down-cv a:hover {
+  color: #fff;
+}
+
 .down-cv:hover{
   color: #fff;
   background-color: #0f0f0f;
