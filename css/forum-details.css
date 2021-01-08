@@ -1480,3 +1480,25 @@ body.cv {
         float: right
     }
 }
+
+
+/* Grid For App Images*/
+.app-images{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 .5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .app-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767.98px) {
+    .app-images{
+        grid-template-columns: repeat(2, 1fr) ;
+    }
+}
